@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../IIR_Filter.srcs/sources_1/new/FSM.v" \
+"../../../../IIR_Filter.srcs/sources_1/new/MAC.v" \
+"../../../../IIR_Filter.srcs/sources_1/new/Top_IIR.v" \
+"../../../../IIR_Filter.srcs/sim_1/new/sim_IIR.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

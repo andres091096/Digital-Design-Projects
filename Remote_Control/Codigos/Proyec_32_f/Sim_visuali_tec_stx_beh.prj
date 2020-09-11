@@ -1,0 +1,7 @@
+vhdl isim_temp "registro_desplazamiento.vhd"
+vhdl isim_temp "div_fre.vhd"
+vhdl isim_temp "ContadorBinario.vhd"
+vhdl isim_temp "Teclas.vhd"
+vhdl isim_temp "fsm_senal.vhd"
+vhdl isim_temp "Visualizar_tecla.vhd"
+vhdl isim_temp "Sim_visuali_tec.vhd"

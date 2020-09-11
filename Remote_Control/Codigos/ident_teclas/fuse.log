@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/manja/Documents/Digitales/Proyecto/Codigos/ident_teclas/simulacion_SIPO_isim_beh.exe -prj C:/Users/manja/Documents/Digitales/Proyecto/Codigos/ident_teclas/simulacion_SIPO_beh.prj work.simulacion_SIPO 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/ident_teclas/registro_desplazamiento.vhd" into library work
+Parsing VHDL file "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/ident_teclas/div_fre.vhd" into library work
+Parsing VHDL file "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/ident_teclas/Teclas.vhd" into library work
+Parsing VHDL file "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/ident_teclas/simulacion_SIPO.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture modulo_variable of entity div_frec [\div_frec(6)\]
+Compiling architecture behavioral of entity registro_desplazamiento [\registro_desplazamiento(32)\]
+Compiling architecture behavioral of entity Teclas [teclas_default]
+Compiling architecture behavior of entity simulacion_sipo
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 VHDL Units
+Built simulation executable C:/Users/manja/Documents/Digitales/Proyecto/Codigos/ident_teclas/simulacion_SIPO_isim_beh.exe
+Fuse Memory Usage: 34120 KB
+Fuse CPU Usage: 1093 ms

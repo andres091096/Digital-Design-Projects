@@ -1,0 +1,1 @@
+vhdtdtfi -prj Proyecto_Final -o C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/guarda.vhi -module guarda -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work registro_desplazamiento.vhd -lib work Detect_up_.vhd -lib work guarda.vhd 

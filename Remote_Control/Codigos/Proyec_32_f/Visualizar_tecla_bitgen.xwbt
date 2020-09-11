@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyec_32_f\Visualizar_tecla.ncd
+OUTFILE=C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyec_32_f\Visualizar_tecla.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyec_32_f
+LICENSE=WebPack
+USER_INFO=211259019_0_0_419

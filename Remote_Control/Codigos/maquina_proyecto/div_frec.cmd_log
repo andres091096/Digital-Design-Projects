@@ -1,0 +1,1 @@
+vhdtdtfi -prj maquina_proyecto -o C:/Users/manja/Documents/Digitales/Proyecto/Codigos/maquina_proyecto/div_frec.vhi -module div_frec -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work div_fre.vhd 

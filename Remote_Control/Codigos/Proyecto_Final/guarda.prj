@@ -1,0 +1,5 @@
+vhdl work "FlipFlop_D.vhd"
+vhdl work "registro_desplazamiento.vhd"
+vhdl work "Detect_up_.vhd"
+vhdl work "contador_variab.vhd"
+vhdl work "guarda.vhd"

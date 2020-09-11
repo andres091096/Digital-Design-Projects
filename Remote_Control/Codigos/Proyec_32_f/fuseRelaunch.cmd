@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Sim_visuali_tec_isim_beh.exe" -prj "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Sim_visuali_tec_beh.prj" "work.Sim_visuali_tec" 

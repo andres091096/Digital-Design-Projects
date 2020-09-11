@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/cir_guardar/Simulacion_isim_beh.exe" -prj "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/cir_guardar/Simulacion_beh.prj" "work.Simulacion" 

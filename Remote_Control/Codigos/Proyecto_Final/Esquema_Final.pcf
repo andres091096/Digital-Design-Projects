@@ -1,0 +1,191 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Feb 09 11:19:02 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CLOCK" LOCATE = SITE "E3" LEVEL 1;
+COMP "SW" LOCATE = SITE "J15" LEVEL 1;
+COMP "PWM" LOCATE = SITE "D18" LEVEL 1;
+COMP "Sig" LOCATE = SITE "C17" LEVEL 1;
+COMP "Anodos<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "Anodos<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "Anodos<4>" LOCATE = SITE "P14" LEVEL 1;
+COMP "Anodos<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "Anodos<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "Anodos<6>" LOCATE = SITE "K2" LEVEL 1;
+COMP "Anodos<5>" LOCATE = SITE "T14" LEVEL 1;
+COMP "Anodos<7>" LOCATE = SITE "U13" LEVEL 1;
+COMP "led<0>" LOCATE = SITE "H17" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "K15" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "J13" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "N14" LEVEL 1;
+COMP "led<4>" LOCATE = SITE "R18" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "V17" LEVEL 1;
+COMP "led<6>" LOCATE = SITE "U17" LEVEL 1;
+COMP "led<7>" LOCATE = SITE "U16" LEVEL 1;
+COMP "led<8>" LOCATE = SITE "V16" LEVEL 1;
+COMP "led<9>" LOCATE = SITE "T15" LEVEL 1;
+COMP "Catodos<6>" LOCATE = SITE "T10" LEVEL 1;
+COMP "Catodos<5>" LOCATE = SITE "R10" LEVEL 1;
+COMP "Catodos<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "Catodos<4>" LOCATE = SITE "K16" LEVEL 1;
+COMP "Catodos<3>" LOCATE = SITE "K13" LEVEL 1;
+COMP "Catodos<2>" LOCATE = SITE "P15" LEVEL 1;
+COMP "Catodos<1>" LOCATE = SITE "T11" LEVEL 1;
+COMP "led<14>" LOCATE = SITE "V12" LEVEL 1;
+COMP "led<13>" LOCATE = SITE "V14" LEVEL 1;
+COMP "led<12>" LOCATE = SITE "V15" LEVEL 1;
+COMP "led<11>" LOCATE = SITE "T16" LEVEL 1;
+COMP "led<10>" LOCATE = SITE "U14" LEVEL 1;
+COMP "led<15>" LOCATE = SITE "V11" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "Inst_Visualizar_tecla/maquina/presente_FSM_FFd1"
+        BEL "Inst_Visualizar_tecla/maquina/presente_FSM_FFd3" BEL
+        "Inst_Visualizar_tecla/maquina/presente_FSM_FFd2" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_0" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_1" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_2" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_3" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_4" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_5" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_6" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_7" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_8" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_9" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_10" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_11" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_12" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_13" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_14" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_15" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_16" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_17" BEL
+        "Inst_Visualizar_tecla/maquina/Inst_ContadorBinario/q_18" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_0" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_1" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_2" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_3" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_4" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_5" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_6" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_7" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_8" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_9" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_10" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_11" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_12" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_13" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_14" BEL
+        "Inst_Visualizar_tecla/tec/div_save/q_15" BEL
+        "Inst_Visualizar_tecla/tec/divis/q_0" BEL
+        "Inst_Visualizar_tecla/tec/divis/q_1" BEL
+        "Inst_Visualizar_tecla/tec/divis/q_2" BEL
+        "Inst_Visualizar_tecla/tec/divis/q_3" BEL
+        "Inst_Visualizar_tecla/tec/divis/q_4" BEL
+        "Inst_Visualizar_tecla/tec/divis/q_5" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_0" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_1" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_2" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_3" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_4" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_5" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_6" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_7" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_8" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_9" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_10" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_11" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_12" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_13" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_14" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_15" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_16" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_17" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_18" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_19" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_20" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_21" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_22" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_23" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_24" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_25" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_26" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_27" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_28" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_29" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_30" BEL
+        "Inst_Visualizar_tecla/tec/reg2/reg_31" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_0" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_1" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_2" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_3" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_4" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_5" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_6" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_7" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_8" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_9" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_10" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_11" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_12" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_13" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_14" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_15" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_16" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_17" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_18" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_19" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_20" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_21" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_22" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_23" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_24" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_25" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_26" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_27" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_28" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_29" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_30" BEL
+        "Inst_Visualizar_tecla/tec/registro/reg_31" BEL
+        "Inst_Visualizar_tecla/Flanco_Subida_2/circuit_1/q_int" BEL
+        "Inst_guarda/Flanco_Subida/circuit_1/q_int" BEL
+        "Inst_guarda/registro3/reg_0" BEL "Inst_guarda/registro3/reg_1" BEL
+        "Inst_guarda/registro3/reg_2" BEL "Inst_guarda/registro3/reg_3" BEL
+        "Inst_guarda/registro3/reg_4" BEL "Inst_guarda/registro2/reg_0" BEL
+        "Inst_guarda/registro2/reg_1" BEL "Inst_guarda/registro2/reg_2" BEL
+        "Inst_guarda/registro2/reg_3" BEL "Inst_guarda/registro2/reg_4" BEL
+        "Inst_guarda/registro1/reg_0" BEL "Inst_guarda/registro1/reg_1" BEL
+        "Inst_guarda/registro1/reg_2" BEL "Inst_guarda/registro1/reg_3" BEL
+        "Inst_guarda/registro1/reg_4" BEL "Inst_guarda/registro4/reg_0" BEL
+        "Inst_guarda/registro4/reg_1" BEL "Inst_guarda/registro4/reg_2" BEL
+        "Inst_guarda/registro4/reg_3" BEL "Inst_guarda/registro4/reg_4" BEL
+        "Inst_guarda/registro4/reg_5" BEL "Inst_guarda/registro4/reg_6" BEL
+        "Inst_guarda/registro4/reg_7" BEL "Inst_guarda/registro4/reg_8" BEL
+        "Inst_guarda/registro4/reg_9" BEL "Inst_guarda/registro4/reg_10" BEL
+        "Inst_guarda/registro4/reg_11" BEL "Inst_guarda/registro4/reg_12" BEL
+        "Inst_guarda/Inst_contador_variab/q_0" BEL
+        "Inst_guarda/Inst_contador_variab/q_1" BEL "Inst_Clic_vid_uti/q_0" BEL
+        "Inst_Clic_vid_uti/q_1" BEL "Inst_Clic_vid_uti/q_2" BEL
+        "Inst_Clic_vid_uti/q_3" BEL "Inst_Clic_vid_uti/q_4" BEL
+        "Inst_Clic_vid_uti/q_5" BEL "Inst_Clic_vid_uti/q_6" BEL
+        "Inst_Clic_vid_uti/q_7" BEL "Inst_Clic_vid_uti/q_8" BEL
+        "Inst_Clic_vid_uti/q_9" BEL "Inst_Clic_vid_uti/q_10" BEL
+        "Inst_Clic_vid_uti/q_11" BEL "Inst_Clic_vid_uti/q_12" BEL
+        "Inst_Clic_vid_uti/q_13" BEL "Inst_Clic_vid_uti/q_14" BEL
+        "Inst_Clic_vid_uti/q_15" BEL "Inst_Clic_vid_uti/q_16" BEL
+        "Inst_Clic_vid_uti/q_17" BEL "Inst_Clic_vid_uti/q_18" BEL
+        "Inst_Clic_vid_uti/q_19" BEL "Inst_Clic_vid_uti/q_20" BEL
+        "Inst_vcis_7s/Inst_contador_variab/q_0" BEL
+        "Inst_vcis_7s/Inst_contador_variab/q_1" BEL "Inst_vcis_7s/circ_1/q_0"
+        BEL "Inst_vcis_7s/circ_1/q_1" BEL "Inst_vcis_7s/circ_1/q_2" BEL
+        "Inst_vcis_7s/circ_1/q_3" BEL "Inst_vcis_7s/circ_1/q_4" BEL
+        "Inst_vcis_7s/circ_1/q_5" BEL "Inst_vcis_7s/circ_1/q_6" BEL
+        "Inst_vcis_7s/circ_1/q_7" BEL "Inst_vcis_7s/circ_1/q_8" BEL
+        "Inst_vcis_7s/circ_1/q_9" BEL "Inst_vcis_7s/circ_1/q_10" BEL
+        "Inst_vcis_7s/circ_1/q_11" BEL "Inst_vcis_7s/circ_1/q_12" BEL
+        "Inst_vcis_7s/circ_1/q_13" BEL "Inst_vcis_7s/circ_1/q_14" BEL
+        "Inst_vcis_7s/circ_1/q_15" BEL "Inst_vcis_7s/circ_1/q_16" BEL
+        "Inst_vcis_7s/circ_1/q_17" BEL "Inst_vcis_7s/circ_1/q_18" BEL
+        "CLOCK_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

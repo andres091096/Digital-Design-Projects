@@ -1,0 +1,2 @@
+vhdtdtfi -prj ident_teclas -o C:/Users/manja/Documents/Digitales/Proyecto/Codigos/ident_teclas/div_frec.vhi -module div_frec -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work div_fre.vhd 
+vhdtdtfi -prj ident_teclas -o C:/Users/manja/Documents/Digitales/Proyecto/Codigos/ident_teclas/div_frec.vhi -module div_frec -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work div_fre.vhd 

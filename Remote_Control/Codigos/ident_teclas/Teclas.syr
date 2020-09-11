@@ -1,0 +1,418 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: Teclas.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Teclas.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Teclas"
+Output Format                      : NGC
+Target Device                      : xc7a100t-1-csg324
+
+---- Source Options
+Top Module Name                    : Teclas
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\ident_teclas\registro_desplazamiento.vhd" into library work
+Parsing entity <registro_desplazamiento>.
+Parsing architecture <Behavioral> of entity <registro_desplazamiento>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\ident_teclas\div_fre.vhd" into library work
+Parsing entity <div_frec>.
+Parsing architecture <modulo_variable> of entity <div_frec>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\ident_teclas\Teclas.vhd" into library work
+Parsing entity <Teclas>.
+Parsing architecture <Behavioral> of entity <teclas>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Teclas> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <div_frec> (architecture <modulo_variable>) with generics from library <work>.
+
+Elaborating entity <registro_desplazamiento> (architecture <Behavioral>) with generics from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Teclas>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\ident_teclas\Teclas.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Teclas> synthesized.
+
+Synthesizing Unit <div_frec>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\ident_teclas\div_fre.vhd".
+        n = 6
+    Found 6-bit register for signal <q>.
+    Found 6-bit adder for signal <masl> created at line 25.
+    Found 6-bit comparator lessequal for signal <compara_INV_1_o> created at line 24
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <div_frec> synthesized.
+
+Synthesizing Unit <registro_desplazamiento>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\ident_teclas\registro_desplazamiento.vhd".
+        n = 32
+    Found 32-bit register for signal <reg>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <registro_desplazamiento> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 6-bit adder                                           : 1
+# Registers                                            : 3
+ 32-bit register                                       : 2
+ 6-bit register                                        : 1
+# Comparators                                          : 1
+ 6-bit comparator lessequal                            : 1
+# Multiplexers                                         : 1
+ 32-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <div_frec>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <div_frec> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 64
+ Flip-Flops                                            : 64
+# Comparators                                          : 1
+ 6-bit comparator lessequal                            : 1
+# Multiplexers                                         : 1
+ 32-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <registro_desplazamiento> ...
+
+Optimizing unit <Teclas> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Teclas, actual ratio is 0.
+FlipFlop divisor/q_5 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 71
+ Flip-Flops                                            : 71
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Teclas.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 58
+#      LUT2                        : 2
+#      LUT3                        : 15
+#      LUT4                        : 1
+#      LUT5                        : 8
+#      LUT6                        : 32
+# FlipFlops/Latches                : 71
+#      FD                          : 4
+#      FDRE                        : 67
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 10
+#      IBUF                        : 3
+#      OBUF                        : 7
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              71  out of  126800     0%  
+ Number of Slice LUTs:                   58  out of  63400     0%  
+    Number used as Logic:                58  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     88
+   Number with an unused Flip Flop:      17  out of     88    19%  
+   Number with an unused LUT:            30  out of     88    34%  
+   Number of fully used LUT-FF pairs:    41  out of     88    46%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of    210     5%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLOCK                              | BUFGP                  | 71    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 1.936ns (Maximum Frequency: 516.529MHz)
+   Minimum input arrival time before clock: 1.914ns
+   Maximum output required time after clock: 9.418ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK'
+  Clock period: 1.936ns (frequency: 516.529MHz)
+  Total number of paths / destination ports: 129 / 105
+-------------------------------------------------------------------------
+Delay:               1.936ns (Levels of Logic = 1)
+  Source:            divisor/q_5_1 (FF)
+  Destination:       divisor/q_4 (FF)
+  Source Clock:      CLOCK rising
+  Destination Clock: CLOCK rising
+
+  Data Path: divisor/q_5_1 to divisor/q_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.478   0.421  divisor/q_5_1 (divisor/q_5_1)
+     LUT3:I2->O            4   0.124   0.419  divisor/Mcount_q_val1 (divisor/Mcount_q_val)
+     FDRE:R                    0.494          divisor/q_5
+    ----------------------------------------
+    Total                      1.936ns (1.096ns logic, 0.840ns route)
+                                       (56.6% logic, 43.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK'
+  Total number of paths / destination ports: 115 / 107
+-------------------------------------------------------------------------
+Offset:              1.914ns (Levels of Logic = 2)
+  Source:            RESET (PAD)
+  Destination:       divisor/q_4 (FF)
+  Destination Clock: CLOCK rising
+
+  Data Path: RESET to divisor/q_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            68   0.001   0.876  RESET_IBUF (RESET_IBUF)
+     LUT3:I0->O            4   0.124   0.419  divisor/Mcount_q_val1 (divisor/Mcount_q_val)
+     FDRE:R                    0.494          divisor/q_5
+    ----------------------------------------
+    Total                      1.914ns (0.619ns logic, 1.295ns route)
+                                       (32.3% logic, 67.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK'
+  Total number of paths / destination ports: 4594 / 7
+-------------------------------------------------------------------------
+Offset:              9.418ns (Levels of Logic = 10)
+  Source:            registro/reg_16 (FF)
+  Destination:       Q_OUT<5> (PAD)
+  Source Clock:      CLOCK rising
+
+  Data Path: registro/reg_16 to Q_OUT<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             3   0.478   0.550  registro/reg_16 (registro/reg_16)
+     LUT2:I0->O            1   0.124   0.939  GND_4_o_q_t[31]_equal_14_o<31>13 (GND_4_o_q_t[31]_equal_14_o<31>13)
+     LUT6:I0->O            1   0.124   0.776  GND_4_o_q_t[31]_equal_14_o<31>17_SW0 (N11)
+     LUT6:I2->O            4   0.124   0.556  GND_4_o_q_t[31]_equal_14_o<31>17 (GND_4_o_q_t[31]_equal_14_o<31>1)
+     LUT6:I4->O            8   0.124   0.822  PWR_4_o_q_t[31]_equal_12_o<31>11 (PWR_4_o_q_t[31]_equal_12_o<31>1)
+     LUT6:I2->O            1   0.124   0.939  Q_OUT<4>1_SW0 (N7)
+     LUT6:I0->O            2   0.124   0.945  Q_OUT<4>1 (Q_OUT<4>1)
+     LUT6:I0->O            2   0.124   0.945  out41 (out4)
+     LUT6:I0->O            3   0.124   0.953  out (n0014)
+     LUT6:I0->O            1   0.124   0.399  Q_OUT<2>1 (Q_OUT_5_OBUF)
+     OBUF:I->O                 0.000          Q_OUT_5_OBUF (Q_OUT<5>)
+    ----------------------------------------
+    Total                      9.418ns (1.594ns logic, 7.824ns route)
+                                       (16.9% logic, 83.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLOCK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK          |    1.936|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 18.72 secs
+ 
+--> 
+
+Total memory usage is 410456 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

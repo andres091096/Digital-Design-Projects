@@ -1,0 +1,2 @@
+vhdtdtfi -prj Proyec_32_f -o C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/contador_variab.vhi -module contador_variab -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work conta_vari_modi.vhd 
+vhdtdtfi -prj Proyec_32_f -o C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/contador_variab.vhi -module contador_variab -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work conta_vari_modi.vhd 

@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/andres/Documentos/Digitales/IIR_Filter/IIR_Filter.srcs/sources_1/new/FSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/andres/Documentos/Digitales/IIR_Filter/IIR_Filter.srcs/sources_1/new/MAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/andres/Documentos/Digitales/IIR_Filter/IIR_Filter.srcs/sources_1/new/Top_IIR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_IIR
+INFO: [VRFC 10-2458] undeclared symbol enable_MAC1, assumed default net type wire [/home/andres/Documentos/Digitales/IIR_Filter/IIR_Filter.srcs/sources_1/new/Top_IIR.v:108]
+INFO: [VRFC 10-2458] undeclared symbol enable_MAC2, assumed default net type wire [/home/andres/Documentos/Digitales/IIR_Filter/IIR_Filter.srcs/sources_1/new/Top_IIR.v:109]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/andres/Documentos/Digitales/IIR_Filter/IIR_Filter.srcs/sim_1/new/sim_IIR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_IIR

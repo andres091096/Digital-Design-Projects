@@ -1,0 +1,1 @@
+vhdtdtfi -prj cir_guardar -o C:/Users/manja/Documents/Digitales/Proyecto/Codigos/cir_guardar/Flanco_sub.vhi -module Flanco_sub -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../../../Laboratorio/Detectores_anti-rebote/Detector_up/FlipFlop_D.vhd -lib work Detect_up_.vhd 

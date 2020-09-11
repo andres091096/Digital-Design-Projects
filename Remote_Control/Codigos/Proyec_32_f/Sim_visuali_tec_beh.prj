@@ -1,0 +1,8 @@
+vhdl work "registro_desplazamiento.vhd"
+vhdl work "div_fre.vhd"
+vhdl work "ContadorBinario.vhd"
+vhdl work "Teclas.vhd"
+vhdl work "fsm_senal.vhd"
+vhdl work "conta_vari_modi.vhd"
+vhdl work "Visualizar_tecla.vhd"
+vhdl work "Sim_visuali_tec.vhd"

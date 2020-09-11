@@ -1,0 +1,4 @@
+vhdl work "registro_desplazamiento.vhd"
+vhdl work "div_fre.vhd"
+vhdl work "Teclas.vhd"
+vhdl work "simulacion_SIPO.vhd"

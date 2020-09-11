@@ -1,0 +1,139 @@
+## This file is a general .ucf for the Nexys4 DDR Rev C board
+## To use it in a project:
+## - uncomment the lines corresponding to used pins
+## - rename the used signals according to the project
+
+################################################################################
+## Clock signal
+NET "CLK"   LOC = "E3" | IOSTANDARD = "LVCMOS33";
+NET "CLK"   TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100 MHz HIGH 50%; 
+
+
+################################################################################
+## Switches
+#NET "sw<0>"    LOC=J15 | IOSTANDARD=LVCMOS33;
+#NET "sw<1>"    LOC=L16 | IOSTANDARD=LVCMOS33;
+#NET "sw<2>"    LOC=M13 | IOSTANDARD=LVCMOS33;
+#NET "sw<3>"    LOC=R15 | IOSTANDARD=LVCMOS33;
+#NET "sw<4>"    LOC=R17 | IOSTANDARD=LVCMOS33;
+#NET "sw<5>"    LOC=T18 | IOSTANDARD=LVCMOS33;
+#NET "sw<6>"    LOC=U18 | IOSTANDARD=LVCMOS33;
+#NET "sw<7>"    LOC=R13 | IOSTANDARD=LVCMOS33;
+#NET "sw<8>"    LOC=T8  | IOSTANDARD=LVCMOS18;
+#NET "sw<9>"    LOC=U8  | IOSTANDARD=LVCMOS18;
+#NET "sw<10>"   LOC=R16 | IOSTANDARD=LVCMOS33;
+#NET "sw<11>"   LOC=T13 | IOSTANDARD=LVCMOS33;
+#NET "sw<12>"   LOC=H6  | IOSTANDARD=LVCMOS33;
+#NET "sw<13>"   LOC=U12 | IOSTANDARD=LVCMOS33;
+#NET "sw<14>"   LOC=U11 | IOSTANDARD=LVCMOS33;
+#NET "sw<15>"   LOC=V10 | IOSTANDARD=LVCMOS33;
+
+
+################################################################################
+## Buttons
+#NET "btnc"     LOC=N17 | IOSTANDARD=LVCMOS33;    # CENTER
+#NET "btnd"     LOC=P18 | IOSTANDARD=LVCMOS33;    # DOWN
+#NET "btnl"     LOC=P17 | IOSTANDARD=LVCMOS33;    # LEFT
+#NET "btnr"     LOC=M17 | IOSTANDARD=LVCMOS33;    # RIGHT
+#NET "btnu"     LOC=M18 | IOSTANDARD=LVCMOS33;    # UP
+
+#NET "cpu_resetn"   LOC=C12 | IOSTANDARD=LVCMOS33;
+
+
+################################################################################
+## LEDs
+#NET "led<0>"    LOC=H17 | IOSTANDARD=LVCMOS33;
+#NET "led<1>"    LOC=K15 | IOSTANDARD=LVCMOS33;
+#NET "led<2>"    LOC=J13 | IOSTANDARD=LVCMOS33;
+#NET "led<3>"    LOC=N14 | IOSTANDARD=LVCMOS33;
+#NET "led<4>"    LOC=R18 | IOSTANDARD=LVCMOS33;
+#NET "led<5>"    LOC=V17 | IOSTANDARD=LVCMOS33;
+#NET "led<6>"    LOC=U17 | IOSTANDARD=LVCMOS33;
+#NET "led<7>"    LOC=U16 | IOSTANDARD=LVCMOS33;
+#NET "led<8>"    LOC=V16 | IOSTANDARD=LVCMOS33;
+#NET "led<9>"    LOC=T15 | IOSTANDARD=LVCMOS33;
+#NET "led<10>"   LOC=U14 | IOSTANDARD=LVCMOS33;
+#NET "led<11>"   LOC=T16 | IOSTANDARD=LVCMOS33;
+#NET "led<12>"   LOC=V15 | IOSTANDARD=LVCMOS33;
+#NET "led<13>"   LOC=V14 | IOSTANDARD=LVCMOS33;
+#NET "led<14>"   LOC=V12 | IOSTANDARD=LVCMOS33;
+#NET "led<15>"   LOC=V11 | IOSTANDARD=LVCMOS33;
+
+##LEDs_RGB
+#NET "led16_b"  LOC=R12 | IOSTANDARD=LVCMOS33;    # BLUE
+#NET "led16_g"  LOC=M16 | IOSTANDARD=LVCMOS33;    # GREEN
+#NET "led16_r"  LOC=N15 | IOSTANDARD=LVCMOS33;    # RED
+#NET "led17_b"  LOC=G14 | IOSTANDARD=LVCMOS33;    # BLUE
+#NET "led17_g"  LOC=R11 | IOSTANDARD=LVCMOS33;    # GREEN
+#NET "led17_r"  LOC=N16 | IOSTANDARD=LVCMOS33;    # RED
+
+
+################################################################################
+## 7 segment display      (COMMON CATHODE)
+NET "Num(6)"       LOC=T10 | IOSTANDARD=LVCMOS33;    # SEGMENT A
+NET "Num(5)"       LOC=R10 | IOSTANDARD=LVCMOS33;    # SEGMENT B
+NET "Num(4)"       LOC=K16 | IOSTANDARD=LVCMOS33;    # SEGMENT C
+NET "Num(3)"       LOC=K13 | IOSTANDARD=LVCMOS33;    # SEGMENT D
+NET "Num(2)"       LOC=P15 | IOSTANDARD=LVCMOS33;    # SEGMENT E
+NET "Num(1)"       LOC=T11 | IOSTANDARD=LVCMOS33;    # SEGMENT F
+NET "Num(0)"       LOC=L18 | IOSTANDARD=LVCMOS33;    # SEGMENT G
+#NET "dp"       LOC=H15 | IOSTANDARD=LVCMOS33;    # POINT
+
+NET "Anod(0)"    LOC=J17 | IOSTANDARD=LVCMOS33;
+NET "Anod(1)"    LOC=J18 | IOSTANDARD=LVCMOS33;
+NET "Anod(2)"    LOC=T9  | IOSTANDARD=LVCMOS33;
+NET "Anod(3)"    LOC=J14 | IOSTANDARD=LVCMOS33;
+NET "Anod(4)"    LOC=P14 | IOSTANDARD=LVCMOS33;
+NET "Anod(5)"    LOC=T14 | IOSTANDARD=LVCMOS33;
+NET "Anod(6)"    LOC=K2  | IOSTANDARD=LVCMOS33;
+NET "Anod(7)"    LOC=U13 | IOSTANDARD=LVCMOS33;
+
+
+################################################################################
+#   ------------------------
+#  |Vcc|GND|  4 | 3 | 2 | 1 |
+#  |---|---|----|---|---|---|
+#  |Vcc|GND| 10 | 9 | 8 | 7 |
+#   ------------------------
+
+## Pmod Header JA
+#NET "ja<1>"    LOC=C17 | IOSTANDARD=LVCMOS33;
+#NET "ja<2>"    LOC=D18 | IOSTANDARD=LVCMOS33;
+#NET "ja<3>"    LOC=E18 | IOSTANDARD=LVCMOS33;
+#NET "ja<4>"    LOC=G17 | IOSTANDARD=LVCMOS33;
+#NET "ja<7>"    LOC=D17 | IOSTANDARD=LVCMOS33;
+#NET "ja<8>"    LOC=E17 | IOSTANDARD=LVCMOS33;
+#NET "ja<9>"    LOC=F18 | IOSTANDARD=LVCMOS33;
+#NET "ja<10>"   LOC=G18 | IOSTANDARD=LVCMOS33;
+
+## Pmod Header JB
+#NET "jb<1>"    LOC=D14 | IOSTANDARD=LVCMOS33;
+#NET "jb<2>"    LOC=F16 | IOSTANDARD=LVCMOS33;
+#NET "jb<3>"    LOC=G16 | IOSTANDARD=LVCMOS33;
+#NET "jb<4>"    LOC=H14 | IOSTANDARD=LVCMOS33;
+#NET "jb<7>"    LOC=E16 | IOSTANDARD=LVCMOS33;
+#NET "jb<8>"    LOC=F13 | IOSTANDARD=LVCMOS33;
+#NET "jb<9>"    LOC=G13 | IOSTANDARD=LVCMOS33;
+#NET "jb<10>"   LOC=H16 | IOSTANDARD=LVCMOS33;
+
+## Pmod Header JC
+#NET "jc<1>"    LOC=K1 | IOSTANDARD=LVCMOS33;
+#NET "jc<2>"    LOC=F6 | IOSTANDARD=LVCMOS33;
+#NET "jc<3>"    LOC=J2 | IOSTANDARD=LVCMOS33;
+#NET "jc<4>"    LOC=G6 | IOSTANDARD=LVCMOS33;
+#NET "jc<7>"    LOC=E7 | IOSTANDARD=LVCMOS33;
+#NET "jc<8>"    LOC=J3 | IOSTANDARD=LVCMOS33;
+#NET "jc<9>"    LOC=J4 | IOSTANDARD=LVCMOS33;
+#NET "jc<10>"   LOC=E6 | IOSTANDARD=LVCMOS33;
+
+## Pmod Header JD
+NET "Sig"    LOC=H4 | IOSTANDARD=LVCMOS33;
+#NET "jd<2>"    LOC=H1 | IOSTANDARD=LVCMOS33;
+#NET "jd<3>"    LOC=G1 | IOSTANDARD=LVCMOS33;
+#NET "jd<4>"    LOC=G3 | IOSTANDARD=LVCMOS33;
+#NET "jd<7>"    LOC=H2 | IOSTANDARD=LVCMOS33;
+#NET "jd<8>"    LOC=G4 | IOSTANDARD=LVCMOS33;
+#NET "jd<9>"    LOC=G2 | IOSTANDARD=LVCMOS33;
+#NET "jd<10>"   LOC=F3 | IOSTANDARD=LVCMOS33;
+ 

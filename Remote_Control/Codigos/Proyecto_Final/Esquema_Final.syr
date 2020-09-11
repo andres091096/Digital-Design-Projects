@@ -1,0 +1,833 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.40 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.40 secs
+ 
+--> Reading design: Esquema_Final.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Esquema_Final.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Esquema_Final"
+Output Format                      : NGC
+Target Device                      : xc7a100t-1-csg324
+
+---- Source Options
+Top Module Name                    : Esquema_Final
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 0
+Power Reduction                    : NO
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\registro_desplazamiento.vhd" into library work
+Parsing entity <registro_desplazamiento>.
+Parsing architecture <Behavioral> of entity <registro_desplazamiento>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\FlipFlop_D.vhd" into library work
+Parsing entity <flipflopD>.
+Parsing architecture <tipo_D> of entity <flipflopd>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\div_fre.vhd" into library work
+Parsing entity <div_frec>.
+Parsing architecture <modulo_variable> of entity <div_frec>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\ContadorBinario.vhd" into library work
+Parsing entity <ContadorBinario>.
+Parsing architecture <Behavioral> of entity <contadorbinario>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\Teclas.vhd" into library work
+Parsing entity <Teclas>.
+Parsing architecture <Behavioral> of entity <teclas>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\mux_7.vhd" into library work
+Parsing entity <mux_7>.
+Parsing architecture <Behavioral> of entity <mux_7>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\fsm_senal.vhd" into library work
+Parsing entity <fsm_senal>.
+Parsing architecture <Behavioral> of entity <fsm_senal>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\Detect_up_.vhd" into library work
+Parsing entity <Flanco_sub>.
+Parsing architecture <Behavioral> of entity <flanco_sub>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\contador_variab.vhd" into library work
+Parsing entity <contador_variab>.
+Parsing architecture <modulo_variable> of entity <contador_variab>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\Cont.vhd" into library work
+Parsing entity <Cont>.
+Parsing architecture <conta> of entity <cont>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\Visualizar_tecla.vhd" into library work
+Parsing entity <Visualizar_tecla>.
+Parsing architecture <Behavioral> of entity <visualizar_tecla>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\vcis_7s.vhd" into library work
+Parsing entity <vcis_7s>.
+Parsing architecture <Behavioral> of entity <vcis_7s>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\Pro_Nec.vhd" into library work
+Parsing entity <Clic_vid_uti>.
+Parsing architecture <Behavioral> of entity <clic_vid_uti>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\guarda.vhd" into library work
+Parsing entity <guarda>.
+Parsing architecture <Behavioral> of entity <guarda>.
+Parsing VHDL file "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\Esquema_Final.vhd" into library work
+Parsing entity <Esquema_Final>.
+Parsing architecture <Behavioral> of entity <esquema_final>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Esquema_Final> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Visualizar_tecla> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <fsm_senal> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ContadorBinario> (architecture <Behavioral>) with generics from library <work>.
+INFO:HDLCompiler:679 - "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\fsm_senal.vhd" Line 129. Case statement is complete. others clause is never selected
+
+Elaborating entity <Teclas> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <div_frec> (architecture <modulo_variable>) with generics from library <work>.
+
+Elaborating entity <div_frec> (architecture <modulo_variable>) with generics from library <work>.
+
+Elaborating entity <registro_desplazamiento> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Flanco_sub> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <flipflopD> (architecture <tipo_D>) from library <work>.
+
+Elaborating entity <guarda> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <registro_desplazamiento> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <registro_desplazamiento> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <contador_variab> (architecture <modulo_variable>) with generics from library <work>.
+
+Elaborating entity <Clic_vid_uti> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <vcis_7s> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Cont> (architecture <conta>) with generics from library <work>.
+
+Elaborating entity <mux_7> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Esquema_Final>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\Esquema_Final.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Esquema_Final> synthesized.
+
+Synthesizing Unit <Visualizar_tecla>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\Visualizar_tecla.vhd".
+    Summary:
+	no macro.
+Unit <Visualizar_tecla> synthesized.
+
+Synthesizing Unit <fsm_senal>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\fsm_senal.vhd".
+    Found 3-bit register for signal <presente>.
+    Found finite state machine <FSM_0> for signal <presente>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 45                                             |
+    | Inputs             | 10                                             |
+    | Outputs            | 5                                              |
+    | Clock              | clock (rising_edge)                            |
+    | Power Up State     | inicio                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 19-bit comparator greater for signal <temp[18]_PWR_7_o_LessThan_6_o> created at line 91
+    Found 19-bit comparator greater for signal <PWR_7_o_temp[18]_LessThan_7_o> created at line 91
+    Found 19-bit comparator greater for signal <temp[18]_GND_7_o_LessThan_8_o> created at line 93
+    Found 19-bit comparator greater for signal <GND_7_o_temp[18]_LessThan_9_o> created at line 93
+    Found 19-bit comparator greater for signal <temp[18]_GND_7_o_LessThan_10_o> created at line 95
+    Found 19-bit comparator greater for signal <GND_7_o_temp[18]_LessThan_11_o> created at line 95
+    Found 19-bit comparator greater for signal <temp[18]_GND_7_o_LessThan_12_o> created at line 97
+    Found 19-bit comparator greater for signal <GND_7_o_temp[18]_LessThan_13_o> created at line 97
+    Found 19-bit comparator greater for signal <PWR_7_o_temp[18]_LessThan_14_o> created at line 99
+    Summary:
+	inferred   9 Comparator(s).
+	inferred   1 Finite State Machine(s).
+Unit <fsm_senal> synthesized.
+
+Synthesizing Unit <ContadorBinario>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\ContadorBinario.vhd".
+        n = 19
+    Found 19-bit register for signal <q>.
+    Found 19-bit adder for signal <d> created at line 18.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  19 D-type flip-flop(s).
+Unit <ContadorBinario> synthesized.
+
+Synthesizing Unit <Teclas>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\Teclas.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Teclas> synthesized.
+
+Synthesizing Unit <div_frec_1>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\div_fre.vhd".
+        n = 16
+    Found 16-bit register for signal <q>.
+    Found 16-bit adder for signal <masl> created at line 25.
+    Found 16-bit comparator greater for signal <compara_INV_9_o> created at line 24
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  16 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <div_frec_1> synthesized.
+
+Synthesizing Unit <div_frec_2>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\div_fre.vhd".
+        n = 6
+    Found 6-bit register for signal <q>.
+    Found 6-bit adder for signal <masl> created at line 25.
+    Found 6-bit comparator greater for signal <compara_INV_12_o> created at line 24
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <div_frec_2> synthesized.
+
+Synthesizing Unit <registro_desplazamiento_1>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\registro_desplazamiento.vhd".
+        n = 32
+    Found 32-bit register for signal <reg>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <registro_desplazamiento_1> synthesized.
+
+Synthesizing Unit <Flanco_sub>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\Detect_up_.vhd".
+    Summary:
+	no macro.
+Unit <Flanco_sub> synthesized.
+
+Synthesizing Unit <flipflopD>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\FlipFlop_D.vhd".
+    Found 1-bit register for signal <q_int>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <flipflopD> synthesized.
+
+Synthesizing Unit <guarda>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\guarda.vhd".
+    Found 5-bit comparator greater for signal <dt3[4]_GND_34_o_LessThan_11_o> created at line 122
+    Found 5-bit comparator greater for signal <n0016> created at line 123
+    Found 5-bit comparator greater for signal <dt3[4]_GND_34_o_LessThan_17_o> created at line 124
+    Found 5-bit comparator greater for signal <dt3[4]_GND_34_o_LessThan_23_o> created at line 126
+    Found 5-bit comparator lessequal for signal <n0031> created at line 127
+    Found 5-bit comparator greater for signal <dt3[4]_GND_34_o_LessThan_28_o> created at line 128
+    Found 5-bit comparator lessequal for signal <n0040> created at line 129
+    Found 5-bit comparator lessequal for signal <n0044> created at line 130
+    Found 5-bit comparator greater for signal <dt3[4]_GND_34_o_LessThan_34_o> created at line 130
+    Found 5-bit comparator greater for signal <dt3[4]_GND_34_o_LessThan_37_o> created at line 131
+    Found 5-bit comparator greater for signal <dt3[4]_GND_34_o_LessThan_40_o> created at line 132
+    Found 5-bit comparator lessequal for signal <n0062> created at line 133
+    Summary:
+	inferred  12 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <guarda> synthesized.
+
+Synthesizing Unit <registro_desplazamiento_2>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\registro_desplazamiento.vhd".
+        n = 5
+    Found 5-bit register for signal <reg>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <registro_desplazamiento_2> synthesized.
+
+Synthesizing Unit <registro_desplazamiento_3>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\registro_desplazamiento.vhd".
+        n = 13
+    Found 13-bit register for signal <reg>.
+    Summary:
+	inferred  13 D-type flip-flop(s).
+Unit <registro_desplazamiento_3> synthesized.
+
+Synthesizing Unit <contador_variab>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\contador_variab.vhd".
+        n = 2
+    Found 2-bit register for signal <q>.
+    Found 2-bit adder for signal <masl> created at line 25.
+    Found 2-bit comparator greater for signal <compara_INV_34_o> created at line 24
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <contador_variab> synthesized.
+
+Synthesizing Unit <Clic_vid_uti>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\Pro_Nec.vhd".
+        n = 13
+    Found 21-bit register for signal <q>.
+    Found 21-bit adder for signal <masl> created at line 35.
+    Found 21-bit comparator greater for signal <compara_INV_37_o> created at line 34
+    Found 21-bit comparator greater for signal <ciclo1> created at line 54
+    Found 21-bit comparator greater for signal <ciclo2> created at line 55
+    Found 21-bit comparator greater for signal <ciclo3> created at line 56
+    Found 21-bit comparator greater for signal <ciclo4> created at line 57
+    Found 21-bit comparator greater for signal <ciclo5> created at line 58
+    Found 21-bit comparator greater for signal <ciclo6> created at line 59
+    Found 21-bit comparator greater for signal <ciclo7> created at line 60
+    Found 21-bit comparator greater for signal <ciclo8> created at line 61
+    Found 21-bit comparator greater for signal <ciclo9> created at line 62
+    Found 21-bit comparator greater for signal <ciclo10> created at line 63
+    Found 21-bit comparator greater for signal <ciclo11> created at line 64
+    Found 21-bit comparator greater for signal <ciclo12> created at line 65
+    Found 21-bit comparator greater for signal <ciclo13> created at line 66
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred  14 Comparator(s).
+Unit <Clic_vid_uti> synthesized.
+
+Synthesizing Unit <vcis_7s>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\vcis_7s.vhd".
+    Found 5-bit 3-to-1 multiplexer for signal <out_mux> created at line 91.
+    Found 8-bit 3-to-1 multiplexer for signal <Anod> created at line 97.
+    Found 2-bit comparator lessequal for signal <n0008> created at line 85
+    Summary:
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <vcis_7s> synthesized.
+
+Synthesizing Unit <Cont>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\Cont.vhd".
+        n = 19
+    Found 19-bit register for signal <q>.
+    Found 19-bit adder for signal <mas1> created at line 29.
+    Found 19-bit comparator greater for signal <compara_INV_55_o> created at line 28
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  19 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <Cont> synthesized.
+
+Synthesizing Unit <mux_7>.
+    Related source file is "C:\Users\manja\Documents\Digitales\Proyecto\Codigos\Proyecto_Final\mux_7.vhd".
+    Found 32x7-bit Read Only RAM for signal <S>
+    Summary:
+	inferred   1 RAM(s).
+Unit <mux_7> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x7-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 7
+ 16-bit adder                                          : 1
+ 19-bit adder                                          : 2
+ 2-bit adder                                           : 2
+ 21-bit adder                                          : 1
+ 6-bit adder                                           : 1
+# Registers                                            : 15
+ 1-bit register                                        : 2
+ 13-bit register                                       : 1
+ 16-bit register                                       : 1
+ 19-bit register                                       : 2
+ 2-bit register                                        : 2
+ 21-bit register                                       : 1
+ 32-bit register                                       : 2
+ 5-bit register                                        : 3
+ 6-bit register                                        : 1
+# Comparators                                          : 41
+ 16-bit comparator greater                             : 1
+ 19-bit comparator greater                             : 10
+ 2-bit comparator greater                              : 2
+ 2-bit comparator lessequal                            : 1
+ 21-bit comparator greater                             : 14
+ 5-bit comparator greater                              : 8
+ 5-bit comparator lessequal                            : 4
+ 6-bit comparator greater                              : 1
+# Multiplexers                                         : 10
+ 16-bit 2-to-1 multiplexer                             : 2
+ 2-bit 2-to-1 multiplexer                              : 2
+ 32-bit 2-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 2
+ 5-bit 3-to-1 multiplexer                              : 1
+ 6-bit 2-to-1 multiplexer                              : 1
+ 8-bit 3-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Clic_vid_uti>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <Clic_vid_uti> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Cont>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <Cont> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ContadorBinario>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <ContadorBinario> synthesized (advanced).
+
+Synthesizing (advanced) Unit <div_frec_1>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <div_frec_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <div_frec_2>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <div_frec_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mux_7>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_S> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <XYZ>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <S>             |          |
+    -----------------------------------------------------------------------
+Unit <mux_7> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x7-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 2
+ 2-bit adder                                           : 2
+# Counters                                             : 5
+ 16-bit up counter                                     : 1
+ 19-bit up counter                                     : 2
+ 21-bit up counter                                     : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 98
+ Flip-Flops                                            : 98
+# Comparators                                          : 41
+ 16-bit comparator greater                             : 1
+ 19-bit comparator greater                             : 10
+ 2-bit comparator greater                              : 2
+ 2-bit comparator lessequal                            : 1
+ 21-bit comparator greater                             : 14
+ 5-bit comparator greater                              : 8
+ 5-bit comparator lessequal                            : 4
+ 6-bit comparator greater                              : 1
+# Multiplexers                                         : 6
+ 16-bit 2-to-1 multiplexer                             : 1
+ 32-bit 2-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 2
+ 5-bit 3-to-1 multiplexer                              : 1
+ 8-bit 3-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Inst_Visualizar_tecla/maquina/FSM_0> on signal <presente[1:3]> with sequential encoding.
+--------------------
+ State  | Encoding
+--------------------
+ inicio | 000
+ e0     | 001
+ e1     | 010
+ uno    | 101
+ cero   | 100
+ rep    | 011
+ nuevo  | 110
+--------------------
+
+Optimizing unit <ContadorBinario> ...
+
+Optimizing unit <registro_desplazamiento_1> ...
+
+Optimizing unit <flipflopD> ...
+
+Optimizing unit <registro_desplazamiento_2> ...
+
+Optimizing unit <registro_desplazamiento_3> ...
+
+Optimizing unit <Esquema_Final> ...
+
+Optimizing unit <maquina> ...
+
+Optimizing unit <Visualizar_tecla> ...
+
+Optimizing unit <Teclas> ...
+
+Optimizing unit <div_frec_1> ...
+
+Optimizing unit <div_frec_2> ...
+
+Optimizing unit <Flanco_sub> ...
+
+Optimizing unit <guarda> ...
+
+Optimizing unit <contador_variab> ...
+
+Optimizing unit <Clic_vid_uti> ...
+
+Optimizing unit <vcis_7s> ...
+
+Optimizing unit <Cont> ...
+
+Optimizing unit <mux_7> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Esquema_Final, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 182
+ Flip-Flops                                            : 182
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Esquema_Final.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 528
+#      GND                         : 7
+#      INV                         : 6
+#      LUT1                        : 56
+#      LUT2                        : 36
+#      LUT3                        : 37
+#      LUT4                        : 56
+#      LUT5                        : 58
+#      LUT6                        : 114
+#      MUXCY                       : 76
+#      MUXF7                       : 1
+#      VCC                         : 6
+#      XORCY                       : 75
+# FlipFlops/Latches                : 182
+#      FD                          : 5
+#      FDE                         : 13
+#      FDR                         : 75
+#      FDRE                        : 89
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 34
+#      IBUF                        : 2
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             182  out of  126800     0%  
+ Number of Slice LUTs:                  363  out of  63400     0%  
+    Number used as Logic:               363  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    459
+   Number with an unused Flip Flop:     277  out of    459    60%  
+   Number with an unused LUT:            96  out of    459    20%  
+   Number of fully used LUT-FF pairs:    86  out of    459    18%  
+   Number of unique control sets:        16
+
+IO Utilization: 
+ Number of IOs:                          35
+ Number of bonded IOBs:                  35  out of    210    16%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLOCK                              | BUFGP                  | 182   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 6.142ns (Maximum Frequency: 162.808MHz)
+   Minimum input arrival time before clock: 1.774ns
+   Maximum output required time after clock: 7.732ns
+   Maximum combinational path delay: 1.043ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK'
+  Clock period: 6.142ns (frequency: 162.808MHz)
+  Total number of paths / destination ports: 89504 / 412
+-------------------------------------------------------------------------
+Delay:               6.142ns (Levels of Logic = 12)
+  Source:            Inst_Visualizar_tecla/maquina/presente_FSM_FFd3 (FF)
+  Destination:       Inst_guarda/registro4/reg_0 (FF)
+  Source Clock:      CLOCK rising
+  Destination Clock: CLOCK rising
+
+  Data Path: Inst_Visualizar_tecla/maquina/presente_FSM_FFd3 to Inst_guarda/registro4/reg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.478   0.589  presente_FSM_FFd3 (presente_FSM_FFd3)
+     LUT2:I0->O           26   0.124   0.572  presente_salidas<2>1 (repet)
+     end scope: 'Inst_Visualizar_tecla/maquina:repet'
+     begin scope: 'Inst_Visualizar_tecla/tec:Repet'
+     LUT4:I3->O            2   0.124   0.925  Mmux_q_t121 (q_t<1>)
+     LUT5:I0->O            3   0.124   0.435  Q_OUT<0>1 (Q_OUT<0>1)
+     LUT6:I5->O            1   0.124   0.000  Q_OUT<0>3_SW0_SW0_G (N61)
+     MUXF7:I1->O           1   0.368   0.421  Q_OUT<0>3_SW0_SW0 (N54)
+     LUT6:I5->O            4   0.124   0.441  Q_OUT<0>3 (Q_OUT<0>)
+     end scope: 'Inst_Visualizar_tecla/tec:Q_OUT<0>'
+     end scope: 'Inst_Visualizar_tecla:Num<0>'
+     begin scope: 'Inst_guarda:Sen<0>'
+     LUT5:I4->O            2   0.124   0.427  ok<4>1 (ok)
+     begin scope: 'Inst_guarda/Flanco_Subida:Senal'
+     LUT2:I1->O           13   0.124   0.479  Edge_up1 (Edge_up)
+     end scope: 'Inst_guarda/Flanco_Subida:Edge_up'
+     begin scope: 'Inst_guarda/registro4:ENABLE'
+     FDE:CE                    0.139          reg_0
+    ----------------------------------------
+    Total                      6.142ns (1.853ns logic, 4.289ns route)
+                                       (30.2% logic, 69.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK'
+  Total number of paths / destination ports: 4 / 3
+-------------------------------------------------------------------------
+Offset:              1.774ns (Levels of Logic = 4)
+  Source:            Sig (PAD)
+  Destination:       Inst_Visualizar_tecla/maquina/presente_FSM_FFd2 (FF)
+  Destination Clock: CLOCK rising
+
+  Data Path: Sig to Inst_Visualizar_tecla/maquina/presente_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   0.001   0.959  Sig_IBUF (Sig_IBUF)
+     begin scope: 'Inst_Visualizar_tecla:Sig'
+     begin scope: 'Inst_Visualizar_tecla/maquina:sig'
+     LUT6:I0->O            1   0.124   0.536  presente_FSM_FFd2-In12 (presente_FSM_FFd2-In12)
+     LUT6:I4->O            1   0.124   0.000  presente_FSM_FFd2-In14 (presente_FSM_FFd2-In)
+     FD:D                      0.030          presente_FSM_FFd2
+    ----------------------------------------
+    Total                      1.774ns (0.279ns logic, 1.495ns route)
+                                       (15.7% logic, 84.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK'
+  Total number of paths / destination ports: 5784 / 27
+-------------------------------------------------------------------------
+Offset:              7.732ns (Levels of Logic = 11)
+  Source:            Inst_guarda/registro4/reg_3 (FF)
+  Destination:       PWM (PAD)
+  Source Clock:      CLOCK rising
+
+  Data Path: Inst_guarda/registro4/reg_3 to PWM
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              5   0.478   0.803  reg_3 (reg_3)
+     end scope: 'Inst_guarda/registro4:Q_OUT<3>'
+     end scope: 'Inst_guarda:Control_f<3>'
+     begin scope: 'Inst_Clic_vid_uti:Control<3>'
+     LUT4:I0->O            3   0.124   0.790  GND_41_o_Control[12]_equal_25_o<12>11 (GND_41_o_Control[12]_equal_25_o<12>1)
+     LUT4:I0->O            4   0.124   0.796  GND_41_o_Control[12]_equal_27_o<12>11 (GND_41_o_Control[12]_equal_27_o<12>1)
+     LUT4:I0->O            4   0.124   0.796  GND_41_o_Control[12]_equal_27_o<12>21 (GND_41_o_Control[12]_equal_27_o<12>2)
+     LUT4:I0->O            2   0.124   0.945  GND_41_o_Control[12]_equal_27_o<12>1 (GND_41_o_Control[12]_equal_27_o)
+     LUT6:I0->O            1   0.124   0.536  Cl_out24 (Cl_out24)
+     LUT6:I4->O            1   0.124   0.776  Cl_out27 (Cl_out27)
+     LUT6:I2->O            1   0.124   0.421  Cl_out28 (Cl_out28)
+     LUT4:I3->O            1   0.124   0.399  Cl_out41 (Cl_out)
+     end scope: 'Inst_Clic_vid_uti:Cl_out'
+     OBUF:I->O                 0.000          PWM_OBUF (PWM)
+    ----------------------------------------
+    Total                      7.732ns (1.470ns logic, 6.262ns route)
+                                       (19.0% logic, 81.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Delay:               1.043ns (Levels of Logic = 3)
+  Source:            SW (PAD)
+  Destination:       led<15> (PAD)
+
+  Data Path: SW to led<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   0.001   0.519  SW_IBUF (SW_IBUF)
+     LUT3:I2->O            1   0.124   0.399  Mmux_led161 (led_9_OBUF)
+     OBUF:I->O                 0.000          led_9_OBUF (led<9>)
+    ----------------------------------------
+    Total                      1.043ns (0.125ns logic, 0.918ns route)
+                                       (12.0% logic, 88.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLOCK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK          |    6.142|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 27.00 secs
+Total CPU time to Xst completion: 26.23 secs
+ 
+--> 
+
+Total memory usage is 412892 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,1 @@
+vhdtdtfi -prj Proyecto_Final -o C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/vcis_7s.vhi -module vcis_7s -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work mux_7.vhd -lib work conta_vari_modi.vhd -lib work Cont.vhd -lib work vcis_7s.vhd 

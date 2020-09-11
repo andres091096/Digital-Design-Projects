@@ -1,0 +1,4 @@
+vhdl work "mux_7.vhd"
+vhdl work "contador_variab.vhd"
+vhdl work "Cont.vhd"
+vhdl work "vcis_7s.vhd"

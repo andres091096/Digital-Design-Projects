@@ -1,0 +1,184 @@
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Visualizar_tecla.ngc Visualizar_tecla.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Visualizar_tecla_map.ncd Visualizar_tecla.ngd Visualizar_tecla.pcf 
+par -w -intstyle ise -ol high -mt off Visualizar_tecla_map.ncd Visualizar_tecla.ncd Visualizar_tecla.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Visualizar_tecla.twx Visualizar_tecla.ncd -o Visualizar_tecla.twr Visualizar_tecla.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Visualizar_tecla.ut Visualizar_tecla.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyec_32_f/Visualizar_tecla.syr" 

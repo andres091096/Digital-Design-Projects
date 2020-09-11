@@ -1,0 +1,4 @@
+vhdl work "../../../Laboratorio/Detectores_anti-rebote/Detector_up/FlipFlop_D.vhd"
+vhdl work "registro_desplazamiento.vhd"
+vhdl work "Detect_up_.vhd"
+vhdl work "guarda.vhd"

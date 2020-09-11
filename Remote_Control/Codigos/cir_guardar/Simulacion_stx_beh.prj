@@ -1,0 +1,3 @@
+vhdl isim_temp "registro_desplazamiento.vhd"
+vhdl isim_temp "guarda.vhd"
+vhdl isim_temp "Simulacion.vhd"

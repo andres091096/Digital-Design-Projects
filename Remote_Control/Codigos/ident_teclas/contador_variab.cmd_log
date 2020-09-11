@@ -1,0 +1,1 @@
+vhdtdtfi -prj ident_teclas -o C:/Users/manja/Documents/Digitales/Proyecto/Codigos/ident_teclas/contador_variab.vhi -module contador_variab -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work contador_variab.vhd 

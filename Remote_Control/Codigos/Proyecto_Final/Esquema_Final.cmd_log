@@ -1,0 +1,419 @@
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt off Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt off Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt off Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt off Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt off Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol std -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol std -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol std -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol std -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol std -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol std -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol std -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol std -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 
+xst -intstyle ise -ifn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.xst" -ofn "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/Proyecto_Final/Esquema_Final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cangulo_Pines_Nexys4DDR_dig1.ucf -p xc7a100t-csg324-1 Esquema_Final.ngc Esquema_Final.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o Esquema_Final_map.ncd Esquema_Final.ngd Esquema_Final.pcf 
+par -w -intstyle ise -ol high -mt 4 Esquema_Final_map.ncd Esquema_Final.ncd Esquema_Final.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Esquema_Final.twx Esquema_Final.ncd -o Esquema_Final.twr Esquema_Final.pcf -ucf cangulo_Pines_Nexys4DDR_dig1.ucf 
+bitgen -intstyle ise -f Esquema_Final.ut Esquema_Final.ncd 

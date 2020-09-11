@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/manja/Documents/Digitales/Proyecto/Codigos/cir_guardar/Simulacion_isim_beh.exe -prj C:/Users/manja/Documents/Digitales/Proyecto/Codigos/cir_guardar/Simulacion_beh.prj work.Simulacion 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/cir_guardar/../../../Laboratorio/Detectores_anti-rebote/Detector_up/FlipFlop_D.vhd" into library work
+Parsing VHDL file "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/cir_guardar/registro_desplazamiento.vhd" into library work
+Parsing VHDL file "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/cir_guardar/Detect_up_.vhd" into library work
+Parsing VHDL file "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/cir_guardar/guarda.vhd" into library work
+Parsing VHDL file "C:/Users/manja/Documents/Digitales/Proyecto/Codigos/cir_guardar/Simulacion.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity registro_desplazamiento [\registro_desplazamiento(5)\]
+Compiling architecture tipo_d of entity flipflopD [flipflopd_default]
+Compiling architecture behavioral of entity Flanco_sub [flanco_sub_default]
+Compiling architecture behavioral of entity registro_desplazamiento [\registro_desplazamiento(13)\]
+Compiling architecture behavioral of entity guarda [guarda_default]
+Compiling architecture behavior of entity simulacion
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 15 VHDL Units
+Built simulation executable C:/Users/manja/Documents/Digitales/Proyecto/Codigos/cir_guardar/Simulacion_isim_beh.exe
+Fuse Memory Usage: 34196 KB
+Fuse CPU Usage: 875 ms
